@@ -14,6 +14,9 @@ struct AppEntry: App {
         WindowGroup {
             StartView()
                 .environmentObject(game)
+    var body: some Scene {
+        WindowGroup {
+            StartView()
         }
     }
 }

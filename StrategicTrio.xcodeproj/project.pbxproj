@@ -18,9 +18,18 @@
 		078B736D2C5ED5890049F776 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B736C2C5ED5890049F776 /* GameModels.swift */; };
 		078B73702C5F04290049F776 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B736F2C5F04290049F776 /* ViewModifiers.swift */; };
 		078B73732C5F069F0049F776 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B73722C5F069F0049F776 /* GameView.swift */; };
+
 		078B73752C5F1DE80049F776 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B73742C5F1DE80049F776 /* GameService.swift */; };
 		078B73772C5F2BFB0049F776 /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B73762C5F2BFB0049F776 /* GameSquare.swift */; };
 		078B73792C5F2D910049F776 /* SqaureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B73782C5F2D910049F776 /* SqaureView.swift */; };
+
+
+		078B73752C5F1DE80049F776 /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B73742C5F1DE80049F776 /* GameService.swift */; };
+		078B73772C5F2BFB0049F776 /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B73762C5F2BFB0049F776 /* GameSquare.swift */; };
+		078B73792C5F2D910049F776 /* SqaureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B73782C5F2D910049F776 /* SqaureView.swift */; };
+
+
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +64,18 @@
 		078B736C2C5ED5890049F776 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
 		078B736F2C5F04290049F776 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		078B73722C5F069F0049F776 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+
 		078B73742C5F1DE80049F776 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 		078B73762C5F2BFB0049F776 /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
 		078B73782C5F2D910049F776 /* SqaureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqaureView.swift; sourceTree = "<group>"; };
+
+
+		078B73742C5F1DE80049F776 /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		078B73762C5F2BFB0049F776 /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
+		078B73782C5F2D910049F776 /* SqaureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqaureView.swift; sourceTree = "<group>"; };
+
+
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,9 +183,18 @@
 			isa = PBXGroup;
 			children = (
 				078B73722C5F069F0049F776 /* GameView.swift */,
+
 				078B73762C5F2BFB0049F776 /* GameSquare.swift */,
 				078B73742C5F1DE80049F776 /* GameService.swift */,
 				078B73782C5F2D910049F776 /* SqaureView.swift */,
+
+
+				078B73762C5F2BFB0049F776 /* GameSquare.swift */,
+				078B73742C5F1DE80049F776 /* GameService.swift */,
+				078B73782C5F2D910049F776 /* SqaureView.swift */,
+
+
+
 			);
 			path = "Game Screen";
 			sourceTree = "<group>";
@@ -306,11 +333,22 @@
 				078B73422C5EC2F00049F776 /* StartView.swift in Sources */,
 				078B736D2C5ED5890049F776 /* GameModels.swift in Sources */,
 				078B73402C5EC2F00049F776 /* AppEntry.swift in Sources */,
+
+
+
+
 				078B73752C5F1DE80049F776 /* GameService.swift in Sources */,
 				078B73702C5F04290049F776 /* ViewModifiers.swift in Sources */,
 				078B73732C5F069F0049F776 /* GameView.swift in Sources */,
 				078B73772C5F2BFB0049F776 /* GameSquare.swift in Sources */,
 				078B73792C5F2D910049F776 /* SqaureView.swift in Sources */,
+
+
+
+				078B73702C5F04290049F776 /* ViewModifiers.swift in Sources */,
+				078B73732C5F069F0049F776 /* GameView.swift in Sources */,
+
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
