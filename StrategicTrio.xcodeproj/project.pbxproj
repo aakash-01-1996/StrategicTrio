@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		078B73402C5EC2F00049F776 /* StrategicTrioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B733F2C5EC2F00049F776 /* StrategicTrioApp.swift */; };
-		078B73422C5EC2F00049F776 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B73412C5EC2F00049F776 /* ContentView.swift */; };
+		078B73402C5EC2F00049F776 /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B733F2C5EC2F00049F776 /* AppEntry.swift */; };
+		078B73422C5EC2F00049F776 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B73412C5EC2F00049F776 /* StartView.swift */; };
 		078B73442C5EC2F10049F776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078B73432C5EC2F10049F776 /* Assets.xcassets */; };
 		078B73472C5EC2F10049F776 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078B73462C5EC2F10049F776 /* Preview Assets.xcassets */; };
 		078B73512C5EC2F10049F776 /* StrategicTrioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B73502C5EC2F10049F776 /* StrategicTrioTests.swift */; };
 		078B735B2C5EC2F10049F776 /* StrategicTrioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B735A2C5EC2F10049F776 /* StrategicTrioUITests.swift */; };
 		078B735D2C5EC2F10049F776 /* StrategicTrioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B735C2C5EC2F10049F776 /* StrategicTrioUITestsLaunchTests.swift */; };
+		078B736A2C5ECC680049F776 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 078B73692C5ECC680049F776 /* Launch Screen.storyboard */; };
+		078B736D2C5ED5890049F776 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B736C2C5ED5890049F776 /* GameModels.swift */; };
+		078B73702C5F04290049F776 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B736F2C5F04290049F776 /* ViewModifiers.swift */; };
+		078B73732C5F069F0049F776 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B73722C5F069F0049F776 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		078B733C2C5EC2F00049F776 /* StrategicTrio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrategicTrio.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		078B733F2C5EC2F00049F776 /* StrategicTrioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategicTrioApp.swift; sourceTree = "<group>"; };
-		078B73412C5EC2F00049F776 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		078B733F2C5EC2F00049F776 /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
+		078B73412C5EC2F00049F776 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		078B73432C5EC2F10049F776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		078B73462C5EC2F10049F776 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		078B734C2C5EC2F10049F776 /* StrategicTrioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrategicTrioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		078B73562C5EC2F10049F776 /* StrategicTrioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrategicTrioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		078B735A2C5EC2F10049F776 /* StrategicTrioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategicTrioUITests.swift; sourceTree = "<group>"; };
 		078B735C2C5EC2F10049F776 /* StrategicTrioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategicTrioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		078B73692C5ECC680049F776 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		078B736C2C5ED5890049F776 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		078B736F2C5F04290049F776 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		078B73722C5F069F0049F776 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +102,13 @@
 		078B733E2C5EC2F00049F776 /* StrategicTrio */ = {
 			isa = PBXGroup;
 			children = (
-				078B733F2C5EC2F00049F776 /* StrategicTrioApp.swift */,
-				078B73412C5EC2F00049F776 /* ContentView.swift */,
+				078B733F2C5EC2F00049F776 /* AppEntry.swift */,
+				078B73412C5EC2F00049F776 /* StartView.swift */,
+				078B73712C5F06710049F776 /* Game Screen */,
+				078B736B2C5ED4360049F776 /* Models */,
+				078B736E2C5F03D40049F776 /* Utilities */,
 				078B73432C5EC2F10049F776 /* Assets.xcassets */,
+				078B73692C5ECC680049F776 /* Launch Screen.storyboard */,
 				078B73452C5EC2F10049F776 /* Preview Content */,
 			);
 			path = StrategicTrio;
@@ -125,6 +137,30 @@
 				078B735C2C5EC2F10049F776 /* StrategicTrioUITestsLaunchTests.swift */,
 			);
 			path = StrategicTrioUITests;
+			sourceTree = "<group>";
+		};
+		078B736B2C5ED4360049F776 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				078B736C2C5ED5890049F776 /* GameModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		078B736E2C5F03D40049F776 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				078B736F2C5F04290049F776 /* ViewModifiers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		078B73712C5F06710049F776 /* Game Screen */ = {
+			isa = PBXGroup;
+			children = (
+				078B73722C5F069F0049F776 /* GameView.swift */,
+			);
+			path = "Game Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +267,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				078B736A2C5ECC680049F776 /* Launch Screen.storyboard in Resources */,
 				078B73472C5EC2F10049F776 /* Preview Assets.xcassets in Resources */,
 				078B73442C5EC2F10049F776 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +294,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				078B73422C5EC2F00049F776 /* ContentView.swift in Sources */,
-				078B73402C5EC2F00049F776 /* StrategicTrioApp.swift in Sources */,
+				078B73422C5EC2F00049F776 /* StartView.swift in Sources */,
+				078B736D2C5ED5890049F776 /* GameModels.swift in Sources */,
+				078B73402C5EC2F00049F776 /* AppEntry.swift in Sources */,
+				078B73702C5F04290049F776 /* ViewModifiers.swift in Sources */,
+				078B73732C5F069F0049F776 /* GameView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -427,8 +467,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,8 +497,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
