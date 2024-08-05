@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct GameView: View {
+ TwoPlayerGame
     @Environment(\.dismiss) var dismiss
     var body: some View {
         VStack {
@@ -23,6 +24,10 @@ struct GameView: View {
         }
         .navigationTitle("Strategic Trio")
         .inNavigationStack()
+
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+ main
     }
 }
 

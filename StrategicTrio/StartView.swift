@@ -2,12 +2,17 @@
 //  ContentView.swift
 //  StrategicTrio
 //
+
 //  Created by Aakash Ambodkar
+
+//  Created by Aakash Ambodkar on 8/3/24.
+
 //
 
 import SwiftUI
 
 struct StartView: View {
+
     @State private var gameType: GameType = .undetermined
     @State private var yourName = ""
     @State private var opponentName = ""
@@ -68,6 +73,17 @@ struct StartView: View {
         
     }
         
+=======
+    var body: some View {
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+
 }
 
 #Preview {
