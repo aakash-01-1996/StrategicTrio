@@ -9,6 +9,9 @@ import SwiftUI
 
 struct SqaureView: View {
 
+
+
+
     @EnvironmentObject var game: GameService
     let index: Int
     var body: some View {
@@ -24,13 +27,19 @@ struct SqaureView: View {
         .disabled(game.gameBoard[index].player != nil)
         .foregroundColor(.primary)
         
+
+
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+
     }
 }
 
 #Preview {
     SqaureView(index: 1)
         .environmentObject(GameService())
+
+
     SqaureView()
+
 }
