@@ -5,13 +5,21 @@
 
 //  Created by Aakash Ambodkar
 
+
+//  Created by Aakash Ambodkar
+
 //  Created by Aakash Ambodkar on 8/3/24.
+
 
 //
 
 import SwiftUI
 
 struct StartView: View {
+
+    @EnvironmentObject var game: GameService
+
+
 
     @State private var gameType: GameType = .undetermined
     @State private var yourName = ""
@@ -51,6 +59,10 @@ struct StartView: View {
                 .frame(width: 350)
                 if gameType != .peer {
                     Button("Start Game") {
+
+                        game.setupGame(gameType: gameType, player1Name: yourName, player2Name:opponentName)
+
+
                         focus = false
                         startGame.toggle()
                     }
@@ -60,12 +72,15 @@ struct StartView: View {
                         gameType == .bot && yourName.isEmpty ||
                         gameType == .single && (yourName.isEmpty  || opponentName.isEmpty)
                     )
-//                                    Image("LaunchScreen")
                 }
                 Spacer()
             }
             .padding()
             .navigationTitle("Strategic Trio")
+
+            .onAppear{
+                game.reset()
+            }
             .fullScreenCover(isPresented: $startGame) {
                 GameView()
             }
@@ -73,7 +88,6 @@ struct StartView: View {
         
     }
         
-=======
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -84,8 +98,13 @@ struct StartView: View {
         .padding()
     }
 
+
 }
 
 #Preview {
     StartView()
+
+        .environmentObject(GameService())
+
+
 }
