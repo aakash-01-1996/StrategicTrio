@@ -2,6 +2,9 @@
 - Challenge your friend for a fun game.
 - Play with a bot or Mutliplayer.
 
+## Live Link
+https://youtube.com/shorts/m_GpOX9_FwA?feature=share
+
 ### Sneak Peak
 <p align="left">
   <img height="auto" width="250" alt="Screenshot 2024-08-05 at 3 57 51 AM" src="https://github.com/user-attachments/assets/d35d5def-9678-49b7-9217-f983270ac119">
